@@ -1,0 +1,114 @@
+
+/*
+*
+*
+|************************* Main CSS Styles for page *********************|
+*
+*
+*/
+
+body {
+    background: #212121 url(../img/material-design-grey2.svg) no-repeat;
+    background-size: cover;
+    color: rgba(234,233,232,0.8);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/********************** Header Styles **********************/
+
+.title-logo {
+    height: 120px;
+    width: 150px;
+    padding: 0 10px;
+    margin: 20px 0 5px;
+}
+
+.text-thin {
+  font-weight: 100;
+}
+
+.text-super {
+    color: #eae9e8;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+picture.hero-image img {
+    /*max-width: 100%;*/
+    width: 100vw;
+}
+
+/*********************** Main  ***********************/
+
+a,
+.sub-text {
+    color: #40A9F2;
+}
+
+.Featured-text {
+    font-weight: bold;
+}
+
+/*********************** Card  ***********************/
+
+.card-description {
+    color: #a5a4a3;
+}
+
+/*********************** Modal  ***********************/
+
+.modal-content {
+    color:#212121;
+}
+
+.modal-text {
+    font-weight: 400;
+}
+
+/*********************** Footer Contents ***********************/
+
+.icon-google3:before {
+    content: "\ea8a";
+    display: inline-block;
+    color: #eae9e8;
+    width: 1.8em;
+    font-size: 1.4em;
+    margin: 0 1.8em 0 0;
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+    display: inline-block;
+    color: #eae9e8;
+    width: 1.8em;
+    font-size: 1.4em;
+    margin: 0 1.8em 0 0;
+}
+
+.icon-github:before {
+    content: "\eab0";
+    display: inline-block;
+    color: #eae9e8;
+    width: 1.8em;
+    font-size: 1.4em;
+    margin: 0 1.8em 0 0;
+}
+
+.icon-linkedin:before {
+    content: "\eac9";
+    display: inline-block;
+    color: #eae9e8;
+    width: 1.8em;
+    font-size: 1.4em;
+    margin: 0 1.8em 0 0;
+}
+
+.footer-text {
+    margin: 1.3em 0 1.5em 0;
+    padding: 1em;
+    color: #a5a4a3;
+}

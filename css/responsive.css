@@ -1,0 +1,158 @@
+/* Centered Screen and Content for Small devices */
+@media (max-width: 767px) {
+
+.container {
+    padding: 1.3em;
+}
+
+.title,
+.Featured-container,
+.social-icons,
+.title-contents {
+    text-align: center;
+}
+
+.social-icons {
+    padding-left: 2em;
+}
+
+p {
+    margin: 1.5em;
+}
+
+.card-headline-text {
+    font-size: 2.7em;
+}
+
+.card-description {
+    font-size: 1.7em;
+}
+
+}
+
+/*Minor Breakpoint */
+@media (min-width: 544px) {
+
+.author-text,
+.sub-text,
+.card-headline-text,
+.card-description {
+    font-size: 2.4em;
+}
+}
+
+/*Major Breakpoint for Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+.container {
+    padding: 1.7em;
+}
+
+.title,
+.Featured-container,
+.social-icons,
+.title-contents{
+    text-align: center;
+}
+
+.author-text {
+    font-size: 4.3em;
+}
+
+.sub-text {
+    font-size: 2.3em;
+}
+
+.Featured-text{
+    font-size: 3.2em;
+    margin: 1em;
+}
+
+.card-headline-text {
+    font-size: 3.5em;
+    margin: 0.5em;
+}
+
+.card-description {
+    font-size: 2.7em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.social-icons {
+    padding-left: 2em;
+}
+}
+
+/*Major Breakpoint for Large devices (desktops / laptops)*/
+@media (min-width: 980px) {
+
+.container {
+    padding: 0;
+}
+
+.title {
+    text-align: left;
+}
+
+.title-contents {
+    text-align: right;
+}
+
+.text-super {
+    font-size: 3.9em;
+}
+
+.sub-text {
+    font-size: 1.9em;
+}
+
+.Featured-text {
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.card {
+    margin-top: 2em;
+}
+
+.card-headline-text {
+    font-size: 2.4em;
+}
+
+.card-description {
+    font-size: 1.7em;
+}
+
+.social-icons {
+    text-align: right;
+}
+
+}
+
+/*Minor Breakpoint Adjustments*/
+@media (min-width: 1000px) {
+
+picture.hero-image img {
+    margin: 0;
+    padding: 2em;
+}
+
+figcaption {
+    padding-left: 2em;
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1300px) {
+
+figcaption,
+picture.hero-image img {
+    margin: 0;
+    padding: 0;
+}
+}

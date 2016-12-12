@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+
+    <title>Melvin Tang Portfolio</title>
+
+    <link rel="icon" sizes="192x192" href="img/icon.png">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/icomoon.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--PictureFill / enable the Picture Element on all browsers-->
+    <script src="js/picturefill.min.js"></script>
+</head>
+
+<body>
+<!--Main Container-->
+<main class="container">
+    <header class="header">
+        <!--Logo and Title/Author-->
+        <div class="title row">
+            <!--Logo-->
+            <div class="col-md-6"><img class="title-logo" src="img/portfolio-logo2.svg" alt="#"></div>
+            <!--Title-->
+            <div class="title-contents col-md-6 text-right text-uppercase">
+                <h1 class="author-text text-super text-thin">Melvin Tang</h1>
+                <h3 class="sub-text text-muted">Web Developer | Data Enthusiast</h3>
+            </div>
+        </div>
+    </header>
+
+        <hr>
+
+    <!--The Hero Image-->
+    <figure class="hero-image-container">
+    <!--Hero Image for different screens-->
+        <picture class="hero-image">
+            <source media="(min-width: 825px)" srcset="img/material-design-cover-1670_large_2x.jpg 2x, img/material-design-cover-900_medium_1x.jpg 1x" type="image/jpeg">
+            <source media="(min-width: 560px)" srcset="img/material-design-cover-1300_large_1x.jpg 2x, img/material-design-cover-690_medium.jpg 1x" type="image/jpeg">
+            <img class="img-responsive" src="img/material-design-cover-690_medium.jpg" srcset="img/material-design-cover-900_medium_1x.jpg" alt="Material Design Artwork">
+        </picture>
+            <!-- <figcaption><em>'Basics' <small>by Melvin Tang © 2016</small></em></figcaption> -->
+    </figure>
+
+        <hr>
+
+    <!--Main Content of the Page-->
+    <div class="content">
+
+    <!--Featured Work heading-->
+    <article class="Featured-container row">
+        <h2 class="Featured-text col-md-12">My Projects</h2>
+    </article>
+
+    <!--Project Cards-->
+    <div class="card row text-center">
+
+    <!--Project Card 1-->
+        <section class="project-card col-md-4">
+            <img class="img-responsive container" data-toggle="modal" data-target="#modal-1" src="img/mockup-html.jpg" alt="mockup to html project screenshot">
+                <h3 class="card-headline-text text-center text-thin">Prototype recruiter site</h3>
+                    <p class="card-description">
+                      Group project - built a prototype recruiter site which helps to sort out large number of job applicants through text-parsing and certain filters.
+                    </p>
+                    <p class="project-link"><a href="http://mjzproject4.herokuapp.com">Link to project</a></p>
+        </section>
+    <!--Project Card 2-->
+        <section class="project-card col-md-4">
+            <img class="img-responsive container" data-toggle="modal" data-target="#modal-2" src="img/mockup-css.jpg" alt="mockup to css project screenshot">
+                <h3 class="card-headline-text text-center text-thin">Tasks Application site</h3>
+                    <p class="card-description">Group project - Built a site for people and businesses to outsource tasks, using Ruby on Rails.</p>
+                    <p class="project-link"><a href="http://ease-co.herokuapp.com/">Link to project</a></p>
+        </section>
+    <!--Project Card 3 Portfolio-->
+
+    </div>
+        <hr>
+    </div>
+</main>
+
+    <!-- Modals -->
+    <!--Modal for Card 1 -->
+    <div class="modal fade" id="modal-1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Prototype recruiter site</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="img/html-1200_large.jpg" />
+                        <img class="img-responsive" src="img/mockup-html.jpg" alt="mockup to html project screenshot">
+                    </picture>
+                        <p class="text-center modal-text">My group project for General Assembly Web Development Immersive. Have to register as a recruiter to see how the filters work.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Modal for Card 2 -->
+    <div class="modal fade" id="modal-2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Task Application site</h4>
+                </div>
+                <div class="modal-body">
+                    <picture>
+                        <source media="(min-width: 750px)" srcset="img/css-1200_large.jpg" />
+                        <img class="img-responsive" src="img/mockup-css.jpg" alt="CSS Project Screenshot">
+                    </picture>
+                        <p class="text-center modal-text">My group project for General Assembly Web Development Immersive.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--Footer Element-->
+    <footer class="site-footer container">
+        <div class="social-icons text-right row">
+            <a href="https://github.com/melvintang" class="icon-github"></a>
+            <a href="https://sg.linkedin.com/in/melvintang2323" class="icon-linkedin"></a>
+        </div>
+            <p class="text-center footer-text row">
+            Developed by <a href="//github.com/melvintang">Melvin Tang</a>
+            </p>
+    </footer>
+</body>
+</html>
